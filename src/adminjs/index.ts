@@ -10,7 +10,7 @@ export const adminJs = new AdminJs({
   rootPath: '/admin',
   branding: {
     companyName: 'OneBitFlix',
-    logo: '/onebitflix.svg',
+    logo: '/logoOnebitflix.svg',
     theme: {
       colors: {
         primary100: '#ff0043',
