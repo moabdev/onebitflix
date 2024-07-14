@@ -11,7 +11,7 @@ export interface CategoryCreationAttributes extends Optional<Category, 'id'> {}
 
 export interface CategoryInstance extends Model<Category, CategoryCreationAttributes>, Category {}
 
-export const Category = database.define<CategoryInstance, Category>('Category', {
+export const Category = database.define<CategoryInstance, Category>('categories', {
   id: {
     allowNull: false,
     autoIncrement: true,
